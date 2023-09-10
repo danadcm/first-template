@@ -1,0 +1,115 @@
+ul {
+  list-style-type: none;
+}
+
+h4,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(180, 194, 206);
+  padding: 10px 50px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+header {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  height: 200px;
+  background-image: url(https://images.unsplash.com/photo-1523633589114-88eaf4b4f1a8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
+}
+
+main {
+  background-color: whitesmoke;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5px 0;
+}
+
+nav {
+  background-color: rgb(235, 235, 235);
+  margin: 0 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 50px;
+  font-weight: 600;
+  font-size: 14px;
+  color: blue;
+}
+
+nav ul li:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.border-right {
+  border-right: 1px dotted blue;
+  height: 10px;
+}
+
+.content {
+  display: flex;
+  gap: 50px;
+  margin: 0 20px;
+  padding-bottom: 20px;
+}
+
+.left-side-content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 20%;
+}
+
+.pencil {
+  color: blue;
+  font-size: 15px;
+}
+
+.main-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-menu-title {
+  margin-bottom: 5px;
+}
+
+.main-menu ul {
+  border: 2px groove blue;
+  margin: 1px;
+  padding: 15px;
+}
+
+.right-side-content {
+  width: 80%;
+}
+
+.right-side-content ul {
+  list-style-type: disc;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+footer {
+  background-color: whitesmoke;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5px 0 30px 0;
+  text-align: center;
+  border-top: 1px solid gray;
+}
+
+footer i {
+  font-size: 12px;
+}
